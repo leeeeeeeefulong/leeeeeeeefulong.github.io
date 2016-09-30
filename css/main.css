@@ -180,9 +180,8 @@ th {
   padding: 0;
 }
 ::selection {
-  /*background: #262a30;
-  color: #fff;*/
-  background: #B1D7FE;
+  background: #262a30;
+  color: #fff;
 }
 body {
   position: relative;
@@ -498,9 +497,8 @@ pre,
   margin: 20px 0;
   padding: 15px;
   font-size: 13px;
-  color: #ccc; 
-  /*background: #2d2d2d;*/
-  background: #F7F7F7;
+  color: #ccc;
+  background: #2d2d2d;
   line-height: 1.6;
 }
 pre,
@@ -520,12 +518,6 @@ pre code {
   color: #ccc;
   background: none;
   text-shadow: none;
-}
-.highlight .keyword,
-.highlight .selector-tag,
-.highlight .type,
-.highlight.javascript .function {
-  color: #e96900;
 }
 .highlight pre {
   border: none;
@@ -563,7 +555,7 @@ pre code {
   border-bottom-color: #ccc;
 }
 .highlight .gutter pre {
-  color: transparent;
+  color: #666;
   text-align: right;
   padding-right: 20px;
 }
@@ -1556,7 +1548,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #05c1a8;
+  background: #1cc3ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2130,7 +2122,7 @@ p {
   margin: 0 0 25px 0;
 }
 a {
-  border-bottom-color: #1abc9c;
+  border-bottom-color: #ccc;
 }
 hr {
   margin: 20px 0;
